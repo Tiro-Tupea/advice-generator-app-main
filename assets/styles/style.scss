@@ -1,0 +1,79 @@
+@import'_variables.scss';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1440px;
+    font-family: manrope, sans-serif;
+    background-color: $neutralDarkBlue;
+}
+
+
+.main-cart {
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 15%;
+    text-align: center;
+    background-color: $neutralGrayBlue;
+    border-radius: 15px;
+    box-shadow: 13px 9px 15px 1px rgba(0,0,0,0.51);
+}
+
+span, .nbr-advice {
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-weight: 800;
+    color: $primaryGreen;
+    position: relative;
+    top: 30px;
+    
+    
+}
+
+.quotes {
+    width: 90%;
+    height: 50%;
+    margin: 0 auto;
+    .quote{
+        color: $primaryCyan;
+        font-size: 28px;
+        font-weight: 800;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.dice {
+    width: 55px;
+    height: 55px;
+    border-style: none;
+    border-radius: 50%;
+    background-color: $primaryGreen;
+    position: relative;
+    top: 35px;
+    &:hover {
+        cursor: pointer;
+        box-shadow:2px 2px 25px 2px hsl(150, 100%, 66%);
+
+    }
+    
+}
+
+.divider-icon {
+    margin: 10px;
+}
+
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 10%;
+    a { color: hsl(228, 45%, 44%); }
+}
+    
